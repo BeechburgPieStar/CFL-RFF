@@ -1,4 +1,4 @@
-# Confidence-Aware Dynamic Fusion for Robust Radio Frequency Fingerprinting
+# Beyond Equalization: Confidence-Aware Fusion Learning for Robust RF Fingerprinting
 
 ## Overview
 This repository provides a research-oriented implementation framework for **robust radio frequency fingerprinting (RFF)** under receiver and channel variations.
