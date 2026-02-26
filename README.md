@@ -3,12 +3,6 @@
 ## Overview
 This repository provides a research-oriented implementation framework for **robust radio frequency fingerprinting (RFF)** under receiver and channel variations.
 
-The codebase includes:
-- Baseline PatchNet models using raw or channel-equalized IQ signals
-- Experimental scripts following standard cross-receiver and cross-channel evaluation protocols
-
-The proposed **Confidence-Aware Dynamic Fusion (CDF)** is part of an ongoing research work and is **not yet released**.
-
 ---
 
 ## Evaluation Protocol (Brief)
