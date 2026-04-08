@@ -44,8 +44,48 @@ python main.py --train_date 1 2 3 --test_round 0 --use_eq
 
 These baselines are provided to analyze the respective roles of raw and equalized signal representations in cross-domain RFF.
 
-### CDF (raw + eq)
-The CDF implementation will be released after the associated paper is accepted.
+### CFL (raw + eq)
+CFL jointly leverages raw and equalized IQ signals via a **Dual-Branch Interactive Network (DBIN)** and an **Energy-based Dynamic Fusion (EDF)** module. EDF uses prediction energy as a per-sample confidence proxy to adaptively weight each branch's logits, supervised by a ranking regularization. The overall loss is:
+```
+L = CE(o_fused, y) + CE(o_raw, y) + CE(o_eq, y) + λ_rank · L_rank
+```
+
+```
+python main.py --train_date 1 2 3 --test_round 0 --code_state train_test
+```
+
+#### Project Structure
+
+```
+CFL/
+├── main.py              # Entry point: argument parsing, data preparation,
+│                        #   training loop (History buffer, rank_loss, train/val/test)
+├── backbones/
+│   └── PatchNet.py      # DBIN: PatchEmbed (Conv1d) → MLP block → XInteract (CBI) → cls head
+│                        #   Energy scores (conf_a, conf_b) computed here for EDF
+├── utils/
+│   └── load_data.py     # Loads paired (non_equalized, equalized) .pkl files,
+│                        #   aligns classes, applies per-sample power normalization
+├── dataset/
+│   └── link.txt         # Download link for ManySig / ManyRx subsets of WiSig
+│                        #   Expected layout: dataset/ManySig/{non_equalized,equalized}/date{1-4}/rx_*_data.pkl
+├── weights/             # Auto-created. Checkpoints saved as:
+│                        #   {dataset}_{exp}_date{dates}_round{r}_seed{s}_p{patch}_d{dim}_...pth
+└── logs/                # Auto-created. No built-in logger; redirect stdout to persist:
+                         #   python main.py ... 2>&1 | tee logs/run_date123_round0.log
+```
+
+#### Key Arguments
+
+| Argument | Default | Description |
+|---|---|---|
+| `--train_date` | `[1, 2]` | Day indices used for training (Exp1: `1`, Exp2: `1 2`, Exp3: `1 2 3`) |
+| `--test_round` | `1` | Receiver group held out for testing (0–3 → R1–R4) |
+| `--code_state` | `only_test` | `only_train` / `only_test` / `train_test` |
+| `--use_xi` | `1` | Enable (`1`) / disable (`0`) CBI cross-branch interaction |
+| `--w_eq` | `1` | Enable the equalized branch |
+| `--wo_eq` | `1` | Enable the raw branch |
+| `--lamb_rank` | `1.0` | Weight λ for ranking regularization loss |
 
 ## License
 
