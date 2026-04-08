@@ -1,0 +1,275 @@
+Train receivers: [0, 1, 2, 6, 7, 8, 9, 10, 11]
+Test receivers:  [3, 4, 5]
+Train Epoch: 1	Loss: 4.190778, Acc: 4227/7560 (55.91%)
+
+Validation set: Loss: 0.6381, Acc: 2588/3240 (79.88%)
+
+Validation loss improved inf -> 0.638085. Saving model...
+------------------------------------------------
+Train Epoch: 2	Loss: 2.145663, Acc: 6553/7560 (86.68%)
+
+Validation set: Loss: 0.3627, Acc: 2750/3240 (84.88%)
+
+Validation loss improved 0.638085 -> 0.362651. Saving model...
+------------------------------------------------
+Train Epoch: 3	Loss: 1.577308, Acc: 6805/7560 (90.01%)
+
+Validation set: Loss: 0.2518, Acc: 3031/3240 (93.55%)
+
+Validation loss improved 0.362651 -> 0.251765. Saving model...
+------------------------------------------------
+Train Epoch: 4	Loss: 1.141233, Acc: 7095/7560 (93.85%)
+
+Validation set: Loss: 0.1588, Acc: 3138/3240 (96.85%)
+
+Validation loss improved 0.251765 -> 0.158773. Saving model...
+------------------------------------------------
+Train Epoch: 5	Loss: 0.792508, Acc: 7336/7560 (97.04%)
+
+Validation set: Loss: 0.0934, Acc: 3181/3240 (98.18%)
+
+Validation loss improved 0.158773 -> 0.093394. Saving model...
+------------------------------------------------
+Train Epoch: 6	Loss: 0.675265, Acc: 7387/7560 (97.71%)
+
+Validation set: Loss: 0.0727, Acc: 3200/3240 (98.77%)
+
+Validation loss improved 0.093394 -> 0.072684. Saving model...
+------------------------------------------------
+Train Epoch: 7	Loss: 0.533398, Acc: 7462/7560 (98.70%)
+
+Validation set: Loss: 0.0597, Acc: 3198/3240 (98.70%)
+
+Validation loss improved 0.072684 -> 0.059662. Saving model...
+------------------------------------------------
+Train Epoch: 8	Loss: 0.479408, Acc: 7487/7560 (99.03%)
+
+Validation set: Loss: 0.0590, Acc: 3210/3240 (99.07%)
+
+Validation loss improved 0.059662 -> 0.059002. Saving model...
+------------------------------------------------
+Train Epoch: 9	Loss: 0.425397, Acc: 7507/7560 (99.30%)
+
+Validation set: Loss: 0.0467, Acc: 3211/3240 (99.10%)
+
+Validation loss improved 0.059002 -> 0.046662. Saving model...
+------------------------------------------------
+Train Epoch: 10	Loss: 0.360007, Acc: 7517/7560 (99.43%)
+
+Validation set: Loss: 0.0424, Acc: 3212/3240 (99.14%)
+
+Validation loss improved 0.046662 -> 0.042383. Saving model...
+------------------------------------------------
+Train Epoch: 11	Loss: 0.359996, Acc: 7517/7560 (99.43%)
+
+Validation set: Loss: 0.0395, Acc: 3209/3240 (99.04%)
+
+Validation loss improved 0.042383 -> 0.039485. Saving model...
+------------------------------------------------
+Train Epoch: 12	Loss: 0.324688, Acc: 7529/7560 (99.59%)
+
+Validation set: Loss: 0.0392, Acc: 3211/3240 (99.10%)
+
+Validation loss improved 0.039485 -> 0.039177. Saving model...
+------------------------------------------------
+Train Epoch: 13	Loss: 0.305521, Acc: 7528/7560 (99.58%)
+
+Validation set: Loss: 0.0356, Acc: 3215/3240 (99.23%)
+
+Validation loss improved 0.039177 -> 0.035564. Saving model...
+------------------------------------------------
+Train Epoch: 14	Loss: 0.318703, Acc: 7538/7560 (99.71%)
+
+Validation set: Loss: 0.0361, Acc: 3210/3240 (99.07%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 15	Loss: 0.275975, Acc: 7539/7560 (99.72%)
+
+Validation set: Loss: 0.0326, Acc: 3214/3240 (99.20%)
+
+Validation loss improved 0.035564 -> 0.032609. Saving model...
+------------------------------------------------
+Train Epoch: 16	Loss: 0.270004, Acc: 7541/7560 (99.75%)
+
+Validation set: Loss: 0.0324, Acc: 3213/3240 (99.17%)
+
+Validation loss improved 0.032609 -> 0.032418. Saving model...
+------------------------------------------------
+Train Epoch: 17	Loss: 0.261956, Acc: 7542/7560 (99.76%)
+
+Validation set: Loss: 0.0327, Acc: 3215/3240 (99.23%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 18	Loss: 0.251484, Acc: 7542/7560 (99.76%)
+
+Validation set: Loss: 0.0343, Acc: 3214/3240 (99.20%)
+
+No improvement for 2 epoch(s).
+------------------------------------------------
+Train Epoch: 19	Loss: 0.247218, Acc: 7544/7560 (99.79%)
+
+Validation set: Loss: 0.0329, Acc: 3215/3240 (99.23%)
+
+No improvement for 3 epoch(s).
+------------------------------------------------
+Train Epoch: 20	Loss: 0.234316, Acc: 7546/7560 (99.81%)
+
+Validation set: Loss: 0.0315, Acc: 3215/3240 (99.23%)
+
+Validation loss improved 0.032418 -> 0.031460. Saving model...
+------------------------------------------------
+Train Epoch: 21	Loss: 0.276647, Acc: 7541/7560 (99.75%)
+
+Validation set: Loss: 0.0327, Acc: 3216/3240 (99.26%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 22	Loss: 0.223305, Acc: 7551/7560 (99.88%)
+
+Validation set: Loss: 0.0333, Acc: 3213/3240 (99.17%)
+
+No improvement for 2 epoch(s).
+------------------------------------------------
+Train Epoch: 23	Loss: 0.209842, Acc: 7549/7560 (99.85%)
+
+Validation set: Loss: 0.0319, Acc: 3220/3240 (99.38%)
+
+No improvement for 3 epoch(s).
+------------------------------------------------
+Train Epoch: 24	Loss: 0.209642, Acc: 7551/7560 (99.88%)
+
+Validation set: Loss: 0.0333, Acc: 3215/3240 (99.23%)
+
+No improvement for 4 epoch(s).
+------------------------------------------------
+Train Epoch: 25	Loss: 0.217043, Acc: 7550/7560 (99.87%)
+
+Validation set: Loss: 0.0337, Acc: 3215/3240 (99.23%)
+
+No improvement for 5 epoch(s).
+------------------------------------------------
+Train Epoch: 26	Loss: 0.216407, Acc: 7552/7560 (99.89%)
+
+Validation set: Loss: 0.0360, Acc: 3218/3240 (99.32%)
+
+Epoch 00026: reducing learning rate of group 0 to 1.0000e-04.
+No improvement for 6 epoch(s).
+------------------------------------------------
+Train Epoch: 27	Loss: 0.196326, Acc: 7554/7560 (99.92%)
+
+Validation set: Loss: 0.0302, Acc: 3218/3240 (99.32%)
+
+Validation loss improved 0.031460 -> 0.030246. Saving model...
+------------------------------------------------
+Train Epoch: 28	Loss: 0.178556, Acc: 7555/7560 (99.93%)
+
+Validation set: Loss: 0.0300, Acc: 3218/3240 (99.32%)
+
+Validation loss improved 0.030246 -> 0.029972. Saving model...
+------------------------------------------------
+Train Epoch: 29	Loss: 0.171529, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0301, Acc: 3218/3240 (99.32%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 30	Loss: 0.170328, Acc: 7558/7560 (99.97%)
+
+Validation set: Loss: 0.0297, Acc: 3218/3240 (99.32%)
+
+Validation loss improved 0.029972 -> 0.029736. Saving model...
+------------------------------------------------
+Train Epoch: 31	Loss: 0.172387, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0298, Acc: 3218/3240 (99.32%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 32	Loss: 0.176204, Acc: 7553/7560 (99.91%)
+
+Validation set: Loss: 0.0298, Acc: 3219/3240 (99.35%)
+
+No improvement for 2 epoch(s).
+------------------------------------------------
+Train Epoch: 33	Loss: 0.176439, Acc: 7554/7560 (99.92%)
+
+Validation set: Loss: 0.0298, Acc: 3219/3240 (99.35%)
+
+No improvement for 3 epoch(s).
+------------------------------------------------
+Train Epoch: 34	Loss: 0.177366, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0302, Acc: 3219/3240 (99.35%)
+
+No improvement for 4 epoch(s).
+------------------------------------------------
+Train Epoch: 35	Loss: 0.178641, Acc: 7556/7560 (99.95%)
+
+Validation set: Loss: 0.0297, Acc: 3219/3240 (99.35%)
+
+Validation loss improved 0.029736 -> 0.029679. Saving model...
+------------------------------------------------
+Train Epoch: 36	Loss: 0.171073, Acc: 7558/7560 (99.97%)
+
+Validation set: Loss: 0.0298, Acc: 3220/3240 (99.38%)
+
+No improvement for 1 epoch(s).
+------------------------------------------------
+Train Epoch: 37	Loss: 0.178675, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0300, Acc: 3219/3240 (99.35%)
+
+No improvement for 2 epoch(s).
+------------------------------------------------
+Train Epoch: 38	Loss: 0.180877, Acc: 7556/7560 (99.95%)
+
+Validation set: Loss: 0.0299, Acc: 3218/3240 (99.32%)
+
+No improvement for 3 epoch(s).
+------------------------------------------------
+Train Epoch: 39	Loss: 0.179457, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0303, Acc: 3217/3240 (99.29%)
+
+No improvement for 4 epoch(s).
+------------------------------------------------
+Train Epoch: 40	Loss: 0.178809, Acc: 7557/7560 (99.96%)
+
+Validation set: Loss: 0.0304, Acc: 3218/3240 (99.32%)
+
+No improvement for 5 epoch(s).
+------------------------------------------------
+Train Epoch: 41	Loss: 0.184434, Acc: 7554/7560 (99.92%)
+
+Validation set: Loss: 0.0303, Acc: 3218/3240 (99.32%)
+
+Epoch 00041: reducing learning rate of group 0 to 1.0000e-05.
+No improvement for 6 epoch(s).
+------------------------------------------------
+Train Epoch: 42	Loss: 0.184200, Acc: 7555/7560 (99.93%)
+
+Validation set: Loss: 0.0302, Acc: 3218/3240 (99.32%)
+
+No improvement for 7 epoch(s).
+------------------------------------------------
+Train Epoch: 43	Loss: 0.180938, Acc: 7556/7560 (99.95%)
+
+Validation set: Loss: 0.0302, Acc: 3218/3240 (99.32%)
+
+No improvement for 8 epoch(s).
+------------------------------------------------
+Train Epoch: 44	Loss: 0.178769, Acc: 7560/7560 (100.00%)
+
+Validation set: Loss: 0.0301, Acc: 3218/3240 (99.32%)
+
+No improvement for 9 epoch(s).
+------------------------------------------------
+Train Epoch: 45	Loss: 0.183337, Acc: 7558/7560 (99.97%)
+
+Validation set: Loss: 0.0303, Acc: 3218/3240 (99.32%)
+
+No improvement for 10 epoch(s).
+Early stopping at epoch 45.
+Test Accuracy: 0.9086
